@@ -6,4 +6,4 @@ git push origin BRANCH
 git checkout BRANCH - navega entres os branches
 git checkout -b BRANCH - cria um novo branch
 git log - mostra o historico de log
-gitk - abre o historico de versões
+gitk - abre o historico de versões*/
