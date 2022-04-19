@@ -8,4 +8,5 @@ git checkout -b BRANCH - cria um novo branch
 git log - mostra o historico de log
 gitk - abre o historico de versões
 git commit --amend -m "mudança realizada" - adiciona o codigo ao ultimo commit.
+git merge
 */
