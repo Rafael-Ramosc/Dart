@@ -15,8 +15,8 @@ main() {
   ];
 
   String Function(Map) pegarApenasNomes = (aluno) => aluno['nome'];
-  int Function(String) qtdeDeLetras = (texto) => texto.length;
   var nomes = alunos.map(pegarApenasNomes);
+  int Function(String) qtdeDeLetras = (texto) => texto.length;
   var quantidadeDeLetras = nomes.map(qtdeDeLetras);
   print(nomes);
   print(quantidadeDeLetras);
