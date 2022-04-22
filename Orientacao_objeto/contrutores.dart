@@ -18,8 +18,9 @@ class Data {
   }*/
 
   Data(this.dia, this.mes, this.ano);
+
   /*Para setar valores default:
-  Data(this.dia = 1, this.mes = 1, this.ano = 1970);*/
+  Data([this.dia = 1, this.mes = 1, this.ano = 1970]);*/
 
   String dataFormatada() {
     return "$dia/$mes/$ano";
