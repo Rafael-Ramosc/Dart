@@ -2,9 +2,9 @@
 void main() {
   Map<String, double> notas = {
     'Jõao pedro': 9.1,
-    'Maria Vagabunda': 2.5,
+    'Maria Eduarda': 2.5,
     'ana MARIA': 5.0,
-    'Roberto Mulambo': 0.0,
+    'Roberto Bizu': 0.0,
     'Pedro formiga': 4.9,
   };
   for (String nome in notas.keys) {

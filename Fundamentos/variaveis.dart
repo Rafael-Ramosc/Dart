@@ -3,8 +3,8 @@ void main() {
   double b = 3.1565;
   var c = 3;
   var d = 4.369;
-  var texto1 = "O Losfasfuco";
-  var texto2 = "meu";
+  var texto1 = "O louco ";
+  var texto2 = "meu! ";
 
   print(texto1 +
       texto2 +

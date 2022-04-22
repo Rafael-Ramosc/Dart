@@ -8,9 +8,8 @@ void main() {
   var inputUsuario = stdin.readLineSync();
   final raio = double.parse(
       inputUsuario!); // final defini uma constante, valor não pode ser alterado
-  //.parse =Transforma string em double
-  print(
-      "O valor do raio é: " + raio.toString()); // Transforma o valor em String
+  //.parse = Transforma string em double
+  print("O valor do raio é: " + raio.toString()); //Transforma o valor em String
 
   final PI = 3.1415;
 

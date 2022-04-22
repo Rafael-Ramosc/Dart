@@ -1,11 +1,11 @@
 import 'dart:io';
 
-//WHILE é usado quando tem um numero indeterminado de repetições, ate encontrar
-//a condição para parar. Se a condição ja estiver sido atendida, ele não executa
-//o bloco de codigo.
+/*WHILE é usado quando tem um numero indeterminado de repetições, ate encontrar
+a condição para parar. Se a condição ja estiver sido atendida, ele não executa
+o bloco de codigo.
 
-//DO WHILE será executado o bloco de codigo pelo menos uma vez, mesmo que a condição
-//tiver sido atendida
+DO WHILE será executado o bloco de codigo pelo menos uma vez, mesmo que a condição
+tiver sido atendida*/
 main() {
   var digitado = '';
   var num = '';
@@ -16,8 +16,8 @@ main() {
   }
 
   do {
-    stdout.write('Digite algo ou sair: ');
+    stdout.write('Digite algo ou sair2: ');
     num = stdin.readLineSync().toString();
-  } while (num != 'vamos');
+  } while (num != 'algo');
   print('FIM!');
 }

@@ -9,9 +9,9 @@ main() {
     print('b = $b');
   }
 
-  //Se o valor for iniciado dentro do laço FOR, so existira dentro dele!
-  //Mas se for iniciado antes ele ira se modificar depois do laço FOR.
-  //Exemplo de uma variavel iniciada antes do laço FOR:
+  /*Se o valor for iniciado dentro do laço FOR, so existira dentro dele!
+  Mas se for iniciado antes ele ira se modificar depois do laço FOR.
+  Exemplo de uma variavel iniciada antes do laço FOR:*/
 
   int i = 10;
   for (; i < 20; i++) {

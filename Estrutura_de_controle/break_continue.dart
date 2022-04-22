@@ -9,9 +9,10 @@ main() {
   print('Saiu do FOR por causa do BREAK!');
 
   for (int a = 0; a < 10; a++) {
-    if (a % 2 == 0) //esse símbolo presenta o resto da divisão. No caso,
-    // "if" para o caso de o resto da divisão de
-    // "a" por 2 for 0, ou seja, se o o "a" for par. 1 se for impar.
+    if (a % 2 == 0)
+    /*esse símbolo representa o resto da divisão. No caso,
+    "if" para o caso de o resto da divisão de
+    "a" por 2 for 0, ou seja, se o o "a" for par. 1 se for impar.*/
     {
       continue;
     }

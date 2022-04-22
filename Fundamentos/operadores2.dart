@@ -8,8 +8,8 @@ void main() {
   print(a);
 
   //Operadores Relacionais (binario/infix) -> O resultado sempre é bool
-  print(3 > 2); //3 e maior que 2 =true
-  print(3 >= 3); //3 e igual ou menor que 3 =true
+  print(3 > 2); //3 e maior que 2 = true
+  print(3 >= 3); //3 e igual ou menor que 3 = true
   print(3 < 2); //3 e menor que 2 = false
   print(3 <= 2); //3 e maior ou igual que 2 = false
   print(3 != 3); // 3 é diferente de 3 = false
