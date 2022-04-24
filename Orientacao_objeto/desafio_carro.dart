@@ -2,29 +2,39 @@ import 'dart:math';
 
 class Carro {
   final int velocidadeMaxima;
-  int velocidadeAtual;
+  int _velocidadeAtual = //  _ torna atributo somente visivel e privado nesse arquivo
 
-  Carro({this.velocidadeMaxima = 220, this.velocidadeAtual = 0});
+      0;
+
+  int get velocidadeAtual {
+    return this._velocidadeAtual;
+  }
+
+  void set velocidadeAtual(int novaVelocidade) {
+    this.velocidadeAtual = novaVelocidade;
+  }
+
+  Carro({this.velocidadeMaxima = 220});
 
   int acelerar() {
-    if (velocidadeAtual + 5 >= velocidadeMaxima) {
-      velocidadeAtual = velocidadeMaxima;
+    if (_velocidadeAtual + 5 >= velocidadeMaxima) {
+      _velocidadeAtual = velocidadeMaxima;
     } else {
-      velocidadeAtual += 5;
+      _velocidadeAtual += 5;
     }
-    return velocidadeAtual;
+    return _velocidadeAtual;
   }
 
   int frear() {
-    if (velocidadeAtual - 5 >= 0) {
-      velocidadeAtual -= 5;
+    if (_velocidadeAtual - 5 >= 0) {
+      _velocidadeAtual -= 5;
     } else {
-      velocidadeAtual = 0;
+      _velocidadeAtual = 0;
     }
-    return velocidadeAtual;
+    return _velocidadeAtual;
   }
 
   bool estaNoLimite() {
-    return velocidadeAtual == velocidadeMaxima;
+    return _velocidadeAtual == velocidadeMaxima;
   }
 }
